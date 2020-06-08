@@ -42,6 +42,4 @@ app.get("/apps", (req, res) => {
     res.json(results)
 })
 
-app.listen(8000, () => {
-    console.log("PSServer is listening at http://localhost:8000")
-})
+module.exports = app;
